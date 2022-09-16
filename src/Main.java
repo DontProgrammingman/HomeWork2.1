@@ -20,7 +20,7 @@ public class Main {
         }
         System.out.println();
 
-/*        Integer[] valuesV2 = {99};
+        Integer[] valuesV2 = {99};
         for (Integer i : valuesV2) {
             System.out.print(i);
         }
@@ -29,7 +29,7 @@ public class Main {
         for (Integer i : valuesV2) {
             System.out.print(i + " ");
         }
-        System.out.println(); Не работает потому что массиве размер одной ячейки, а пытаемся вставить массив двух ячекек*/
+        System.out.println();
 
 
         Person person = new Person("Lyapis", "Trubetskoy");
@@ -54,10 +54,10 @@ public class Main {
         return values;
     }
 
-    /*public static Integer[] changeValuesV2(Integer[] valuesV2){
-        valuesV2 = {3, 4};
+    public static Integer[] changeValuesV2(Integer[] valuesV2){
+        valuesV2 = new Integer[]{3, 4};
         return valuesV2;
-    }*/
+    }
 
     public static Person changePerson(Person person){
         person = new Person("Ilya", "Lagutenko");
